@@ -1,9 +1,9 @@
 import React from 'react'
-import './navbar.css'
+import './Navbar.css'
 const Navbar = () => {
   return (
     <div>
-       <div id="main">
+       <div id="navbar-main-div">
               <div id="left">
                      <h1>Carrer <span>Corps</span></h1>
               </div>
