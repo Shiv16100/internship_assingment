@@ -1,52 +1,51 @@
-import React from 'react'
-import './footer.css'
-import social from './../../images/social.svg'
+import './Footer.css'
+import Ellipse_10 from './../../images/Ellipse_10.png';
+import Ellipse_11 from './../../images/Ellipse_11.png';
+import fotter_icons from  './../../images/fotter_icons.png';
+
+
 const Footer = () => {
-  return (
-    <div>
-       <div id="main_footer">
-              <div id="logo_name">
+   
+    return(
+        <div id="main-footer-div">
+            <img src={Ellipse_10} id="ellipse-10" /> 
+            <img src={Ellipse_11} alt="image is avaible"  id="ellipse-11" /> 
+            <div id="heading-footer">
                      <h1>Carrer <span>Corps</span></h1>
+            </div>
+            <div id="links-footer">
+              <div id="about-us-links">
+                <h3>Links</h3>
+                <p>about</p>
+                <p>Courses</p>
+                <p>Careers</p>
+                <p>Competitions</p>
               </div>
-              <div id="links_contactUs_SM">
-                     <div id="links">
-                            <h1>Links</h1>
-                            <ul>
-                                   <li>About</li>
-                                   <li>Courses</li>
-                                   <li>Careers</li>
-                                   <li>Competitions</li>
-                            </ul>
-                     </div>
-                     <div id="contactUs">
-                            <h1>Contact Us</h1>
-                            <h2>Phone: <span>123-456-7890</span></h2>
-                            <h2>Address: <span>example address, India</span></h2>
-
-                     </div>
-                     <div id="SM">
-                            <h1>Social</h1>
-                            <img src={social} alt="" />
-
-                     </div>
-
+              <div id="contact-us-links">
+                <h3>Contact Us</h3>
+                <p>
+                    Phone: <span>123-456-7890</span>
+                </p>
+                <p>
+                    Address: <span>example address, India</span>
+                </p>
               </div>
-              <div id="callback">
-                     <h1>Request a call back</h1>
-                     <div id="input">
-                     
-                     </div>
-                     <input type="text" placeholder='Enter your Phone' name="" id="" />
-             
-                     <button>book now</button>
-                  </div>
-              <div id="copyright">
-                     <span>© 2023 Career Corps | All Rights Reserved</span>
+              <div id="social-links">
+              <h3>Social</h3>
+                <img src={fotter_icons} alt="" srcset="" />
               </div>
-       </div>
-      
-    </div>
-  )
+            </div>
+            <div id="call-box"> 
+            <h2>Subscribe to Newsletter</h2>
+                <input type="tel" name="phone-number"  placeholder='Enter your Phone'   /> 
+                <button>Book Now</button>
+            </div>
+            <div id="copyright-info">
+              <p>© 2023 Career Corps | All Rights Reserved</p>
+            </div>
+        </div>
+
+    )
 }
 
 export default Footer

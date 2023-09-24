@@ -1,0 +1,36 @@
+#main-testimonial-div{
+    width:1133px;
+    height: 566px;
+    margin: auto;
+    left:350px;
+    font-family: Poppins;
+}
+#main-testimonial-div h1{
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 60px;
+  color:#202125;
+}
+#testimonial-card-cont{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap:10px;
+}
+#forward-icon{
+  width:20px;
+  height: 30px;
+}
+#backward-icon{
+  width:20px;
+  height: 30px;
+}
+#testimonial-heading-rectangle{
+  background-color:  #FFBB0040;
+  width:255px;
+  height: 17px;
+  position: relative;
+  left:524px;
+  top:70px;
+}

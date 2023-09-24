@@ -1,0 +1,56 @@
+#student-card{
+    width:351px;
+    height: 320px;
+    border-radius: 10px;
+    border: 1px solid #e6e8ec;
+    padding: 27px;
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-between;
+}
+#double-qoute-image{
+    width:23px;
+    height: 19.71px;
+}
+#icons{
+    display: flex;
+    justify-content: space-between;
+}
+#linkdin-image{
+    width:23px;
+    height: 19.71px;
+    background-color: #0076B2;
+  
+}
+#student-image{
+    width: 65px;
+    height: 65px;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+#review{
+    width: 291px;
+    height: 108px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color:#2D2E2E;
+}
+#student-information{
+    display: flex;
+    align-items: center;
+}
+#student-information h2{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 22px;
+    color:#000000; 
+    margin-bottom: 2px;
+}
+#student-information p{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 15.5px;
+    color:#000000;
+    margin-top: 0;
+}
