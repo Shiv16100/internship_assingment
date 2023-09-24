@@ -1,19 +1,24 @@
-import './App.css';
-import Footer from './components/footer/Footer';
 import Navbar from './components/navbar/Navbar';
-import Header_aboutus from './components_ABoutUs/Header_aboutus/Header_aboutus';
-import AboutUs from './pages/AboutUs/AboutUs';
-import Home from './pages/Home/Home';
+import Topview from './components/topview/Topview';
+import GetInTouch from './components/get-in-touch/GetInTouch';
+import CourseFindingSection from './components/course-finding-section/CourseFindingSection';
+import Testimonial from './components/student-testimonials/Testimonials';
+import Footer from './components/footer/Footer';
+import './App.css';
 
 
-// internship_assingment
 function App() {
   return (
-  <>
-    <Navbar/>
-    <AboutUs/>
-    <Footer/>
-  </>
+    <div className="App">
+       <div>
+         <Navbar/>
+         <Topview/>
+         <GetInTouch/>
+         <CourseFindingSection/>
+         <Testimonial/>
+         <Footer/>
+       </div>
+    </div>
   );
 }
 
