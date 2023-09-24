@@ -1,0 +1,49 @@
+#program-heading-rectangle{
+    width: 96px;
+    height: 17px;
+    background-color: #FFBB0066;
+    position: relative;
+    top:-60px;
+    left:765px
+}
+#nontech-heading-rectangle{
+    width: 183px;
+    height: 17px;
+    background-color: #FFBB0066;
+    position: relative;
+    height: 17px;
+    top:-60px;
+    left:721px;
+}
+#ug-pg-heading-rectangle{
+    width: 310px;
+    height: 17px;
+    background-color: #FFBB0066;
+    position: relative;
+    height: 17px;
+    top:-60px;
+    left:563px;  
+}
+#main-program-div{
+    /* background-color: blue; */
+    width:100%;
+    height: 2360px;
+    font-family: Poppins;
+}
+#heading-program{
+text-align: center;
+font-size: 40px;
+font-weight: 500;
+line-height: 60px;
+color: #202125;
+margin-top: 116px;
+
+}
+#program-card-container{
+    width:1280px;
+    height: 455px;
+    margin-left: 260px;
+    display: flex;
+    gap:40px;
+
+}

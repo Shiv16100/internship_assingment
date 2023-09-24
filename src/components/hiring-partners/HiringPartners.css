@@ -1,0 +1,74 @@
+#hiring-partners-main-div{
+    /* height: 850px; */
+    height: 900px;
+    position: absolute;
+    top:3014px;
+    /* left:-0px; */
+    width:2036px;
+    width:100%;
+    font-family: Poppins;
+}
+#hiring-partners-company-cont{
+ display: flex;
+flex-direction: column;
+overflow: hidden;
+justify-content: space-between;
+
+}
+
+@keyframes Slide {
+    from{
+        transform: translateX(-10%);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+@keyframes SlideOpp {
+    from{
+        transform: translateX(-100%);
+    }
+    to{
+        transform: translateX(-10%);
+    }
+}
+#first-cards-div{
+    /* background-color: forestgreen; */
+    height: 300px;
+    display: flex;
+    animation: Slide 11s infinite linear;
+
+}
+#second-cards-div{
+    /* background-color: blueviolet; */
+    height: 300px;
+    display: flex;
+    animation: SlideOpp 11s infinite linear;
+    
+
+}
+#hiring-partners-company-cont img{
+    width:350px;
+    height: 250px;
+    border-radius: 10px;
+    border:2px solid #E5E7EB;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#hiring-partners-main-div h1{
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 120px;
+    color:#202125;
+    text-align: center;
+}
+#hiring-partners-main-div span{
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 60px;
+}
+#hiring-partners-heading-rectangle{
+    position: relative;
+    top:-110px;
+    left:650px
+}

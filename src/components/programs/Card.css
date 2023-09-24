@@ -1,0 +1,85 @@
+#card-main-div{
+    width:400px;
+    height: 455px;
+    border: 2px solid #e5e7ebe0;
+    border-radius: 20px;
+    padding-left:30px;
+    padding-right: 30px;
+    font-family: Poppins;
+
+}
+
+#card-heading{
+    position: relative;
+    top:0.82%;
+    left:0.73%;
+    width:232px;
+    height: 74px;
+}
+#card-div-1 h2{
+    font-size: 30px;
+    font-family: Poppins; 
+    font-weight: 600;
+    line-height: 122.5%;
+    color:#000000;
+    margin-top: 70px;
+    text-transform: capitalize;
+    width:220px;  
+}
+#card-div-1  p{
+    font-family: Poppins; 
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.19px;
+    color:#000000;
+    padding-top:23px;
+    text-transform: capitalize;
+
+}
+#card-main-div button{
+    width:142px;
+    height: 54px;
+    background-color: #FFB000;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    font-size: 14.79px;
+    font-weight: 650;
+    line-height: 22.19px;
+    color:white;
+    margin-top: 20px;
+    
+}
+#card-main-info{
+    display: flex;
+    flex-wrap: wrap;
+    width: 341px;
+    height: 117px;
+    justify-content: space-between;
+    margin-top: 36px;
+}
+
+#card-main-info div{
+    height: 56px;
+    border-radius: 8px;
+    border: 1px solid #E5E7EB;
+    display: flex;
+    align-items: center;
+    color:#5E6366;
+    font-size: 14.79px;
+    font-weight: 500;
+    line-height: 22.19px;
+    text-transform: capitalize;
+    box-shadow: 0px 0px 10px 0px rgba(229, 231, 235, 0.62);
+    padding:0 17px;
+   margin-top: 5px;
+}
+#card-image{
+    /* transform: rotate(-3.574); */
+    width:161.792px;
+    height: 162.536px;
+    position: absolute;
+    margin-left: 209px;
+    margin-top: -227px;
+}
+

@@ -1,25 +1,23 @@
-import Navbar from './components/navbar/Navbar.jsx';
+import React from 'react';
 import './App.css';
-import Topview from './components/TopView/Topview.jsx';
-import HiringPartners from './components/hiringPartners/HiringPartners.jsx';
-import ExploreThePrograms from './components/exploreThePrograms/ExploreThePrograms.jsx';
-import WhyChooseCareerCorps from './components/whyChooseCareerCorps/WhyChooseCareerCorps.jsx';
-import MAST from './components/mentorAndStudentTestimonials/MAST.jsx';
-import Footer from './components/footer/Footer.jsx';
+import Navbar from './components/navbar/Navbar';
+import Topview from './components/topview/TopView';
+import Program from './components/programs/Programs';
+import HiringPartners from './components/hiring-partners/HiringPartners';
+import Testimonial from './components/student-testimonials/Testimonials';
+import Footer from './components/footer/Footer';
 
-
-// internship_assingment
 function App() {
   return (
-  <>
-    <Navbar/>
-    <Topview/>
-    <HiringPartners/>
-    <ExploreThePrograms/>
-    <WhyChooseCareerCorps/>
-    <MAST/>
-    <Footer/>
-  </>
+     <div>
+      <Navbar/>
+      <Topview/>
+      <Program></Program>
+      <HiringPartners></HiringPartners>
+      <Testimonial/>
+      <Footer/>
+      
+     </div>
   );
 }
 
