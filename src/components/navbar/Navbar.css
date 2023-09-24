@@ -1,0 +1,50 @@
+#navbar-main-div{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    background: #202125;
+    width:100%;
+    color: #FFF;
+    font-family: Poppins;
+    
+}
+#left{
+    margin-left: 100px;
+}
+#left h1{
+    color: white;
+}
+#left span{
+    color: #FFB000;
+}
+#center{
+    width: 636px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+#center a{
+    color: white;
+    text-decoration: none;
+}
+#right{
+    margin-right: 100px;
+    font-size: 18px;
+
+}
+#signup{
+    margin-right: 30px;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    font-size: 18px;
+    color: white;
+}
+#registernow{
+    background-color: rgba(0,0,0,0);
+    padding: 16px;
+    border: 1px solid white;
+    border-radius: 100px;
+    font-size: 18px;
+    color: white;
+}
