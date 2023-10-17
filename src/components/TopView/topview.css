@@ -214,7 +214,7 @@
 
 #topview_btn button {
        width: 216px;
-       height: 74px;
+       height: 74px;       cursor: pointer;
 }
 
 #topview_started {
@@ -261,7 +261,7 @@
        background: #FFB000;
 }
 
-screen #hiring_partners h1 {
+#hiring_partners h1 {
 
        color: white;
        font-size: 20px;
@@ -290,7 +290,8 @@ screen #hiring_partners h1 {
        }
 }
 
-@media all and (max-width: 1450px) {
+
+@media (min-width:1300px) and (max-width: 1400px) {
        #learners {
               left: 6%;
        }
@@ -306,35 +307,881 @@ screen #hiring_partners h1 {
        #topview_content>h1 {
               font-size: 60px;
        }
-       #topview_content>h1>span{
+
+       #topview_content>h1>span {
               font-size: 60px;
        }
 
        #topview_content>h2 {
               font-size: 25px;
        }
-       #placements{
+
+       #placements {
               width: 400px;
        }
-       #placements_text>h1{
+
+       #placements_text>h1 {
               font-size: 30px;
        }
-       #placements_text>span{
+
+       #placements_text>span {
               font-size: 22px;
        }
-       #placements>img{
+
+       #placements>img {
               width: 70px;
        }
-       #learners{
+
+       #learners {
               width: 315px;
        }
-       #learner_text>h1{
+
+       #learner_text>h1 {
               font-size: 35px;
        }
-       #learner_text>span{
+
+       #learner_text>span {
               font-size: 27px;
        }
-       #learners>img{
+
+       #learners>img {
               width: 90px;
+       }
+}
+
+@media (min-width:1200px) and (max-width: 1300px) {
+       #learners {
+              left: 6%;
+       }
+
+       #vector1 {
+              left: 14%;
+       }
+
+       #topview_content {
+              left: 21%;
+       }
+
+       #topview_content>h1 {
+              font-size: 60px;
+       }
+
+       #topview_content>h1>span {
+              font-size: 60px;
+       }
+
+       #topview_content>h2 {
+              font-size: 25px;
+       }
+
+       #placements {
+              width: 400px;
+       }
+
+       #placements_text>h1 {
+              font-size: 30px;
+       }
+
+       #placements_text>span {
+              font-size: 22px;
+       }
+
+       #placements>img {
+              width: 70px;
+       }
+
+       #learners {
+              width: 315px;
+       }
+
+       #learner_text>h1 {
+              font-size: 35px;
+       }
+
+       #learner_text>span {
+              font-size: 27px;
+       }
+
+       #learners>img {
+              width: 90px;
+       }
+
+       #topview_btn button {
+              width: 216px;
+              height: 74px;
+       }
+}
+
+@media (min-width:1100px) and (max-width: 1200px) {
+       #learners {
+              left: 6%;
+       }
+
+       #vector1 {
+              left: 14%;
+
+       }
+
+       #topview_content {
+              left: 21%;
+       }
+
+       #topview_content>h1 {
+              font-size: 50px;
+       }
+
+       #topview_content>h1>span {
+              font-size: 50px;
+       }
+
+       #topview_content>h2 {
+              font-size: 22px;
+       }
+
+       #vector2 {
+              left: 58%;
+       }
+
+       #placements {
+              width: 400px;
+              left: 62%;
+       }
+
+       #placements_text>h1 {
+              font-size: 30px;
+       }
+
+       #placements_text>span {
+              font-size: 22px;
+       }
+
+       #placements>img {
+              width: 70px;
+       }
+
+       #learners {
+              width: 315px;
+       }
+
+       #learner_text>h1 {
+              font-size: 35px;
+       }
+
+       #learner_text>span {
+              font-size: 27px;
+       }
+
+       #learners>img {
+              width: 90px;
+       }
+
+       #topview_btn button {
+              width: 180px;
+              height: 70px;
+       }
+
+}
+
+@media (min-width:1000px) and (max-width: 1100px) {
+       #learners {
+              left: 6%;
+       }
+
+       #vector1 {
+              left: 14%;
+
+       }
+
+       #topview_content {
+              left: 19%;
+              height: 30%;
+       }
+
+       #topview_content>h1 {
+              font-size: 40px;
+       }
+
+       #topview_content>h1>span {
+              font-size: 40px;
+       }
+
+       #topview_content>h2 {
+              font-size: 19px;
+       }
+
+       #vector2 {
+              left: 45%;
+       }
+
+       #placements {
+              width: 400px;
+              left: 50%;
+       }
+
+       #placements_text>h1 {
+              font-size: 30px;
+       }
+
+       #placements_text>span {
+              font-size: 22px;
+       }
+
+       #placements>img {
+              width: 70px;
+       }
+
+       #learners {
+              width: 315px;
+       }
+
+       #learner_text>h1 {
+              font-size: 35px;
+       }
+
+       #learner_text>span {
+              font-size: 27px;
+       }
+
+       #learners>img {
+              width: 90px;
+       }
+
+       #topview_btn button {
+              width: 180px;
+              height: 70px;
+       }
+}
+
+@media (min-width:900px) and (max-width: 1000px) {
+       #learners {
+              left: 6%;
+       }
+
+       #vector1 {
+              left: 7%;
+
+       }
+
+       #topview_content {
+              left: 19%;
+              height: 30%;
+       }
+
+       #topview_content>h1 {
+              font-size: 40px;
+       }
+
+       #topview_content>h1>span {
+              font-size: 40px;
+       }
+
+       #topview_content>h2 {
+              font-size: 19px;
+       }
+
+       #vector2 {
+              left: 45%;
+       }
+
+       #placements {
+              width: 400px;
+              left: 50%;
+       }
+
+       #placements_text>h1 {
+              font-size: 30px;
+       }
+
+       #placements_text>span {
+              font-size: 22px;
+       }
+
+       #placements>img {
+              width: 70px;
+       }
+
+       #learners {
+              width: 315px;
+       }
+
+       #learner_text>h1 {
+              font-size: 35px;
+       }
+
+       #learner_text>span {
+              font-size: 27px;
+       }
+
+       #learners>img {
+              width: 90px;
+       }
+
+       #topview_btn button {
+              width: 180px;
+              height: 70px;
+       }
+
+       #vector3 {
+              left: 67%;
+       }
+
+}
+
+@media (min-width:800px) and (max-width: 900px) {
+       #learners {
+              left: 6%;
+       }
+
+       #vector1 {
+              left: 7%;
+
+       }
+
+       #topview_content {
+              left: 19%;
+              height: 30%;
+       }
+
+       #topview_content>h1 {
+              font-size: 35px;
+       }
+
+       #topview_content>h1>span {
+              font-size: 35px;
+       }
+
+       #topview_content>h2 {
+              font-size: 19px;
+       }
+
+       #vector2 {
+              left: 45%;
+       }
+
+       #placements {
+              width: 360px;
+              left: 50%;
+       }
+
+       #placements_text>h1 {
+              font-size: 25px;
+       }
+
+       #placements_text>span {
+              font-size: 20px;
+       }
+
+       #placements>img {
+              width: 50px;
+       }
+
+       #learners {
+              width: 250px;
+              height: 120px;
+       }
+
+       #learner_text>h1 {
+              font-size: 25px;
+       }
+
+       #learner_text>span {
+              font-size: 25px;
+       }
+
+       #learners>img {
+              width: 50px;
+              margin-top: 10px;
+       }
+
+       #topview_btn button {
+              width: 150px;
+              height: 50px;
+              font-size: 20px;
+       }
+
+       #vector3 {
+              left: 57%;
+       }
+
+       #programs_KS {
+              top: 76px;
+              left: 64%;
+              width: 234px;
+              height: 100px;
+
+
+       }
+
+       #programs_KS img {
+              width: 50px;
+              height: 50px;
+              margin: 25px;
+       }
+
+       #programs_text {
+              margin-top: 18px;
+              margin-left: 10px;
+       }
+
+       #programs_text h1 {
+              font-size: 30px;
+       }
+
+       #programs_text span {
+              font-size: 20px;
+       }
+
+}
+
+@media (min-width:700px) and (max-width: 800px) {
+       #learners {
+              left: 6%;
+       }
+
+       #vector1 {
+              left: 7%;
+
+       }
+
+       #topview_content {
+              left: 15%;
+              height: 30%;
+       }
+
+       #topview_content>h1 {
+              font-size: 33px;
+       }
+
+       #topview_content>h1>span {
+              font-size: 33px;
+       }
+
+       #topview_content>h2 {
+              font-size: 19px;
+       }
+
+       #vector2 {
+              left: 25%;
+       }
+
+       #placements {
+              width: 360px;
+              left: 32%;
+       }
+
+       #placements_text>h1 {
+              font-size: 25px;
+       }
+
+       #placements_text>span {
+              font-size: 20px;
+       }
+
+       #placements>img {
+              width: 50px;
+       }
+
+       #learners {
+              width: 250px;
+              height: 120px;
+       }
+
+       #learner_text>h1 {
+              font-size: 25px;
+       }
+
+       #learner_text>span {
+              font-size: 25px;
+       }
+
+       #learners>img {
+              width: 50px;
+              margin-top: 10px;
+       }
+
+       #topview_btn button {
+              width: 150px;
+              height: 50px;
+              font-size: 20px;
+       }
+
+       #vector3 {
+              left: 47%;
+       }
+
+       #programs_KS {
+              top: 76px;
+              left: 56%;
+              width: 234px;
+              height: 100px;
+
+
+       }
+
+       #programs_KS img {
+              width: 50px;
+              height: 50px;
+              margin: 25px;
+       }
+
+       #programs_text {
+              margin-top: 18px;
+              margin-left: 10px;
+       }
+
+       #programs_text h1 {
+              font-size: 30px;
+       }
+
+       #programs_text span {
+              font-size: 20px;
+       }
+}
+
+@media (min-width:600px) and (max-width: 700px) {
+       #hiring_partners h1 {
+              font-size: 14px;
+       }
+       #learners {
+              left: 2%;
+       }
+
+       #vector1 {
+              left: 3%;
+
+       }
+
+       #topview_content {
+              left: 15%;
+              height: 30%;
+       }
+
+       #topview_content>h1 {
+              font-size: 25px;
+       }
+
+       #topview_content>h1>span {
+              font-size: 25px;
+       }
+
+       #topview_content>h2 {
+              font-size: 14px;
+       }
+
+       #vector2 {
+              left: 25%;
+       }
+
+       #placements {
+              width: 320px;
+              height: 100px;
+              left: 32%;
+       }
+
+       #placements_text>h1 {
+              font-size: 25px;
+       }
+
+       #placements_text>span {
+              font-size: 20px;
+       }
+
+       #placements>img {
+              width: 40px;
+              margin-top: 10px;
+              margin-right: -7px;
+              margin-bottom: 20px;
+       }
+
+       #learners {
+              width: 180px;
+              height: 100px;
+       }
+
+       #learner_text>h1 {
+              font-size: 20px;
+       }
+
+       #learner_text>span {
+              font-size: 20px;
+       }
+
+       #learners>img {
+              width: 40px;
+              margin-top: 0;
+              margin-right: -7px;
+              margin-bottom: 50px;
+       }
+
+       #topview_btn button {
+              width: 150px;
+              height: 50px;
+              font-size: 20px;
+       }
+
+       #vector3 {
+              left: 47%;
+       }
+
+       #programs_KS {
+              top: 76px;
+              left: 56%;
+              width: 180px;
+              height: 100px;
+
+
+       }
+
+       #programs_KS img {
+              width: 40px;
+              margin-top: 18px;
+              margin-right: -7px;
+              margin-bottom: 20px;
+       }
+
+       #programs_text {
+              margin-top: 18px;
+              margin-left: 10px;
+       }
+
+       #programs_text h1 {
+              font-size: 30px;
+       }
+
+       #programs_text span {
+              font-size: 20px;
+       }
+}
+
+@media (min-width:400px) and (max-width: 600px) {
+       #hiring_partners h1 {
+              font-size: 14px;
+       }
+       #learners {
+              left: 2%;
+       }
+
+       #vector1 {
+              left: 3%;
+
+       }
+
+       #topview_content {
+              left: 12.5%;
+              height: 25%;
+              width: 90%;
+       }
+
+       #topview_content>h1 {
+              font-size: 20px;
+       }
+
+       #topview_content>h1>span {
+              font-size: 20px;
+       }
+
+       #topview_content>h2 {
+              font-size: 12px;
+       }
+
+       #vector2 {
+              left: 5%;
+       }
+
+       #placements {
+              width: 250px;
+              height: 100px;
+              left: 15%;
+       }
+
+       #placements_text>h1 {
+              font-size: 20px;
+       }
+
+       #placements_text>span {
+              font-size: 15px;
+       }
+
+       #placements>img {
+              width: 40px;
+              margin-top: 10px;
+              margin-right: -7px;
+              margin-bottom: 20px;
+       }
+
+       #learners {
+              width: 160px;
+              height: 100px;
+       }
+
+       #learner_text>h1 {
+              font-size: 20px;
+       }
+
+       #learner_text>span {
+              font-size: 15px;
+       }
+
+       #learners>img {
+              width: 40px;
+              margin-top: 0;
+              margin-right: -7px;
+              margin-bottom: 50px;
+       }
+
+       #topview_btn button {
+              width: 120px;
+              height: 40px;
+              font-size: 15px;
+       }
+
+       #vector3 {
+              left: 47%;
+       }
+
+       #programs_KS {
+              top: 76px;
+              left: 56%;
+              width: 150px;
+              height: 100px;
+
+
+       }
+
+       #programs_KS img {
+              width: 40px;
+              margin-top: 18px;
+              margin-right: -7px;
+              margin-bottom: 20px;
+       }
+
+       #programs_text {
+              margin-top: 18px;
+              margin-left: 10px;
+       }
+
+       #programs_text h1 {
+              font-size: 20px;
+       }
+
+       #programs_text span {
+              font-size: 15px;
+       }
+}
+
+@media (min-width:300px) and (max-width: 400px) {
+       #learners {
+              left: 2%;
+       }
+
+       #vector1 {
+              left: 3%;
+
+       }
+
+       #topview_content {
+              left: 12.5%;
+              height: 25%;
+              width: 90%;
+       }
+
+       #topview_content>h1 {
+              font-size: 20px;
+       }
+
+       #topview_content>h1>span {
+              font-size: 20px;
+       }
+
+       #topview_content>h2 {
+              font-size: 12px;
+       }
+
+       #vector2 {
+              left: 5%;
+       }
+
+       #placements {
+              width: 250px;
+              height: 100px;
+              left: 15%;
+       }
+
+       #placements_text>h1 {
+              font-size: 20px;
+       }
+
+       #placements_text>span {
+              font-size: 15px;
+       }
+
+       #placements>img {
+              width: 40px;
+              margin-top: 10px;
+              margin-right: -7px;
+              margin-bottom: 20px;
+       }
+
+       #learners {
+              width: 160px;
+              height: 100px;
+       }
+
+       #learner_text>h1 {
+              font-size: 20px;
+       }
+
+       #learner_text>span {
+              font-size: 15px;
+       }
+
+       #learners>img {
+              width: 40px;
+              margin-top: 0;
+              margin-right: -7px;
+              margin-bottom: 50px;
+       }
+
+       #topview_btn button {
+              width: 120px;
+              height: 40px;
+              font-size: 15px;
+       }
+
+       #vector3 {
+              left: 47%;
+       }
+
+       #programs_KS {
+              top: 76px;
+              left: 56%;
+              width: 150px;
+              height: 100px;
+
+
+       }
+
+       #programs_KS img {
+              width: 40px;
+              margin-top: 18px;
+              margin-right: -7px;
+              margin-bottom: 20px;
+       }
+
+       #programs_text {
+              margin-top: 18px;
+              margin-left: 10px;
+       }
+
+       #programs_text h1 {
+              font-size: 20px;
+       }
+
+       #programs_text span {
+              font-size: 15px;
+       }
+
+       #hiring_partners h1 {
+              font-size: 13px;
        }
 }

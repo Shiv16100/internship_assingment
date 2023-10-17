@@ -18,7 +18,8 @@
        line-height: normal;
        position: relative;
 }
-.trust_The_Vsion>h1>span::after{
+
+.trust_The_Vsion>h1>span::after {
        /* border: 0px 5px 0px 0px solid yellow ; */
        position: absolute;
        content: "";
@@ -26,7 +27,7 @@
        width: 127px;
        background: rgba(255, 176, 0, 0.40);
        bottom: 5%;
-       transform: translate(-100%,0);
+       transform: translate(-100%, 0);
        /* border-bottom: 30px solid yellow; */
 }
 
@@ -42,10 +43,11 @@
        background: linear-gradient(154deg, rgba(121, 117, 131, 0.20) 5.35%, rgba(54, 53, 103, 0.20) 83.85%), rgba(49, 48, 54, 0.30);
 
 }
-.TTV_palcement>img{
+
+.TTV_palcement>img {
        position: absolute;
        top: -1rem;
-left: -8rem;
+       left: -8rem;
 }
 
 .TTV_palcement>div {
@@ -99,11 +101,13 @@ left: -8rem;
        background: linear-gradient(154deg, rgba(121, 117, 131, 0.20) 5.35%, rgba(54, 53, 103, 0.20) 83.85%), rgba(49, 48, 54, 0.30);
 
 }
-.TTV_programs>img{
+
+.TTV_programs>img {
        position: absolute;
        top: -2rem;
-left: 15rem;
+       left: 15rem;
 }
+
 .TTV_programs>div {
 
        color: white;
@@ -150,10 +154,11 @@ left: 15rem;
        left: 50rem;
 
 }
-.TTV_partners>img{
+
+.TTV_partners>img {
        position: absolute;
        top: -6rem;
-left: 19rem;
+       left: 19rem;
 }
 
 .TTV_partners>div {
@@ -181,4 +186,674 @@ left: 19rem;
        font-weight: 300;
        line-height: 137.523%;
        /* 2.57856rem */
+}
+
+@media (min-width:1200px) and (max-width: 1400px) {
+       .trust_The_Vsion {
+              height: 62rem;
+              width: 100%;
+       }
+
+       .trust_The_Vsion>h1 {
+              margin-top: 2rem;
+              font-size: 2.5rem;
+       }
+
+       .trust_The_Vsion>h1>span::after {
+              height: 17px;
+              width: 127px;
+              bottom: 5%;
+       }
+
+       .TTV_palcement {
+              top: 21rem;
+              left: 53rem;
+              width: 18rem;
+              height: 7.2rem;
+       }
+
+       .TTV_palcement>img {
+              top: -1rem;
+              left: -8rem;
+       }
+
+       .TTV_palcement>div {
+              margin-top: 20px;
+              margin-left: 20px;
+       }
+
+       .TTV_palcement>div>h1 {
+              font-size: 2rem;
+       }
+
+       .TTV_palcement>div>h2 {
+              font-size: 1.3rem;
+       }
+
+       .TTV_programs {
+              top: 30rem;
+              left: 8rem;
+              width: 15rem;
+              height: 7.2rem;
+       }
+
+       .TTV_programs>img {
+              position: absolute;
+              top: -2rem;
+              left: 15rem;
+       }
+
+       .TTV_programs>div {
+              margin-top: 20px;
+              margin-left: 20px;
+       }
+
+       .TTV_programs>div>h1 {
+              font-size: 2rem;
+       }
+
+       .TTV_programs>div>h2 {
+              font-size: 1.3rem;
+       }
+
+       .TTV_partners {
+              width: 18.4375rem;
+              height: 7.2rem;
+              border-radius: 1.25rem;
+              top: 43rem;
+              left: 27rem;
+
+       }
+
+       .TTV_partners>img {
+              top: -6rem;
+              left: 19rem;
+       }
+
+       .TTV_partners>div {
+              margin-top: 20px;
+              margin-left: 20px;
+       }
+
+       .TTV_partners>div>h1 {
+              font-size: 2rem;
+       }
+
+       .TTV_partners>div>h2 {
+              font-size: 1.3rem;
+       }
+}
+
+@media (min-width:1000px) and (max-width: 1200px) {
+       .trust_The_Vsion {
+              height: 62rem;
+              width: 100%;
+       }
+
+       .trust_The_Vsion>h1 {
+              margin-top: 2rem;
+              font-size: 2.5rem;
+       }
+
+       .trust_The_Vsion>h1>span::after {
+              height: 17px;
+              width: 127px;
+              bottom: 5%;
+       }
+
+       .TTV_palcement {
+              top: 21rem;
+              left: 43rem;
+              width: 18rem;
+              height: 7.2rem;
+       }
+
+       .TTV_palcement>img {
+              top: -1rem;
+              left: -8rem;
+       }
+
+       .TTV_palcement>div {
+              margin-top: 20px;
+              margin-left: 20px;
+       }
+
+       .TTV_palcement>div>h1 {
+              font-size: 2rem;
+       }
+
+       .TTV_palcement>div>h2 {
+              font-size: 1.3rem;
+       }
+
+       .TTV_programs {
+              top: 30rem;
+              left: 5rem;
+              width: 15rem;
+              height: 7.2rem;
+       }
+
+       .TTV_programs>img {
+              position: absolute;
+              top: -2rem;
+              left: 15rem;
+       }
+
+       .TTV_programs>div {
+              margin-top: 20px;
+              margin-left: 20px;
+       }
+
+       .TTV_programs>div>h1 {
+              font-size: 2rem;
+       }
+
+       .TTV_programs>div>h2 {
+              font-size: 1.3rem;
+       }
+
+       .TTV_partners {
+              width: 18.4375rem;
+              height: 7.2rem;
+              border-radius: 1.25rem;
+              top: 43rem;
+              left: 22rem;
+
+       }
+
+       .TTV_partners>img {
+              top: -6rem;
+              left: 19rem;
+       }
+
+       .TTV_partners>div {
+              margin-top: 20px;
+              margin-left: 20px;
+       }
+
+       .TTV_partners>div>h1 {
+              font-size: 2rem;
+       }
+
+       .TTV_partners>div>h2 {
+              font-size: 1.3rem;
+       }
+}
+
+@media (min-width:800px) and (max-width: 1000px) {
+       .trust_The_Vsion {
+              height: 62rem;
+              width: 100%;
+       }
+
+       .trust_The_Vsion>h1 {
+              margin-top: 2rem;
+              font-size: 2.3rem;
+       }
+
+       .trust_The_Vsion>h1>span::after {
+              height: 17px;
+              width: 110px;
+              bottom: 5%;
+       }
+
+       .TTV_palcement {
+              top: 21rem;
+              left: 37rem;
+              width: 13rem;
+              height: 7.2rem;
+       }
+
+       .TTV_palcement>img {
+              top: -1rem;
+              left: -8rem;
+       }
+
+       .TTV_palcement>div {
+              margin-top: 20px;
+              margin-left: 20px;
+       }
+
+       .TTV_palcement>div>h1 {
+              font-size: 1.8rem;
+       }
+
+       .TTV_palcement>div>h2 {
+              font-size: 1rem;
+       }
+
+       .TTV_programs {
+              top: 30rem;
+              left: 5rem;
+              width: 8rem;
+              height: 7.2rem;
+       }
+
+       .TTV_programs>img {
+              position: absolute;
+              top: -2rem;
+              left: 9rem;
+       }
+
+       .TTV_programs>div {
+              margin-top: 20px;
+              margin-left: 20px;
+       }
+
+       .TTV_programs>div>h1 {
+              font-size: 1.8rem;
+       }
+
+       .TTV_programs>div>h2 {
+              font-size: 1rem;
+       }
+
+       .TTV_partners {
+              width: 11rem;
+              height: 7.2rem;
+              border-radius: 1.25rem;
+              top: 43rem;
+              left: 22rem;
+
+       }
+
+       .TTV_partners>img {
+              top: -6rem;
+              left: 11.5rem;
+       }
+
+       .TTV_partners>div {
+              margin-top: 20px;
+              margin-left: 20px;
+       }
+
+       .TTV_partners>div>h1 {
+              font-size: 1.8rem;
+       }
+
+       .TTV_partners>div>h2 {
+              font-size: 1rem;
+       }
+}
+
+@media (min-width:600px) and (max-width: 800px) {
+       .trust_The_Vsion {
+              height: 62rem;
+              width: 100%;
+       }
+
+       .trust_The_Vsion>h1 {
+              margin-top: 2rem;
+              font-size: 2rem;
+       }
+
+       .trust_The_Vsion>h1>span::after {
+              height: 17px;
+              width: 100px;
+              bottom: 5%;
+       }
+
+       .TTV_palcement {
+              top: 21rem;
+              left: 26rem;
+              width: 10rem;
+              height: 6rem;
+       }
+
+       .TTV_palcement>img {
+              top: -1rem;
+              left: -7rem;
+       }
+
+       .TTV_palcement>div {
+              margin-top: 20px;
+              margin-left: 20px;
+       }
+
+       .TTV_palcement>div>h1 {
+              font-size: 1.4rem;
+       }
+
+       .TTV_palcement>div>h2 {
+              font-size: 0.7rem;
+       }
+
+       .TTV_programs {
+              top: 30rem;
+              left: 3rem;
+              width: 6rem;
+              height: 6rem;
+       }
+
+       .TTV_programs>img {
+              position: absolute;
+              top: -2rem;
+              left: 6rem;
+       }
+
+       .TTV_programs>div {
+              margin-top: 20px;
+              margin-left: 20px;
+       }
+
+       .TTV_programs>div>h1 {
+              font-size: 1.4rem;
+       }
+
+       .TTV_programs>div>h2 {
+              font-size: 0.7rem;
+       }
+
+       .TTV_partners {
+              width: 8rem;
+              height: 6rem;
+              border-radius: 1.25rem;
+              top: 43rem;
+              left: 21rem;
+
+       }
+
+       .TTV_partners>img {
+              top: -5rem;
+              left: 8rem;
+       }
+
+       .TTV_partners>div {
+              margin-top: 20px;
+              margin-left: 20px;
+       }
+
+       .TTV_partners>div>h1 {
+              font-size: 1.4rem;
+       }
+
+       .TTV_partners>div>h2 {
+              font-size: 0.7rem;
+       }
+}
+@media (min-width:500px) and (max-width: 600px) {
+       .trust_The_Vsion {
+              height: 62rem;
+              width: 100%;
+       }
+
+       .trust_The_Vsion>h1 {
+              margin-top: 2rem;
+              font-size: 2rem;
+       }
+
+       .trust_The_Vsion>h1>span::after {
+              height: 17px;
+              width: 100px;
+              bottom: 5%;
+       }
+
+       .TTV_palcement {
+              top: 15rem;
+              left: 18rem;
+              width: 10rem;
+              height: 6rem;
+       }
+
+       .TTV_palcement>img {
+              top: -1rem;
+              left: -7rem;
+       }
+
+       .TTV_palcement>div {
+              margin-top: 20px;
+              margin-left: 20px;
+       }
+
+       .TTV_palcement>div>h1 {
+              font-size: 1.4rem;
+       }
+
+       .TTV_palcement>div>h2 {
+              font-size: 0.7rem;
+       }
+
+       .TTV_programs {
+              top: 24rem;
+              left: 3rem;
+              width: 6rem;
+              height: 6rem;
+       }
+
+       .TTV_programs>img {
+              position: absolute;
+              top: -2rem;
+              left: 6rem;
+       }
+
+       .TTV_programs>div {
+              margin-top: 20px;
+              margin-left: 20px;
+       }
+
+       .TTV_programs>div>h1 {
+              font-size: 1.4rem;
+       }
+
+       .TTV_programs>div>h2 {
+              font-size: 0.7rem;
+       }
+
+       .TTV_partners {
+              width: 8rem;
+              height: 6rem;
+              border-radius: 1.25rem;
+              top: 43rem;
+              left: 17rem;
+
+       }
+
+       .TTV_partners>img {
+              top: -5rem;
+              left: 8rem;
+       }
+
+       .TTV_partners>div {
+              margin-top: 20px;
+              margin-left: 20px;
+       }
+
+       .TTV_partners>div>h1 {
+              font-size: 1.4rem;
+       }
+
+       .TTV_partners>div>h2 {
+              font-size: 0.7rem;
+       }
+}
+@media (min-width:400px) and (max-width: 500px) {
+       .trust_The_Vsion {
+              height: 62rem;
+              width: 100%;
+       }
+
+       .trust_The_Vsion>h1 {
+              margin-top: 2rem;
+              font-size: 2rem;
+       }
+
+       .trust_The_Vsion>h1>span::after {
+              height: 17px;
+              width: 100px;
+              bottom: 5%;
+       }
+
+       .TTV_palcement {
+              top: 15rem;
+              left: 14.5rem;
+              width: 10rem;
+              height: 6rem;
+       }
+
+       .TTV_palcement>img {
+              top: -1rem;
+              left: -7rem;
+       }
+
+       .TTV_palcement>div {
+              margin-top: 20px;
+              margin-left: 20px;
+       }
+
+       .TTV_palcement>div>h1 {
+              font-size: 1.4rem;
+       }
+
+       .TTV_palcement>div>h2 {
+              font-size: 0.7rem;
+       }
+
+       .TTV_programs {
+              top: 24rem;
+              left: 3rem;
+              width: 6rem;
+              height: 6rem;
+       }
+
+       .TTV_programs>img {
+              position: absolute;
+              top: -2rem;
+              left: 6rem;
+       }
+
+       .TTV_programs>div {
+              margin-top: 20px;
+              margin-left: 20px;
+       }
+
+       .TTV_programs>div>h1 {
+              font-size: 1.4rem;
+       }
+
+       .TTV_programs>div>h2 {
+              font-size: 0.7rem;
+       }
+
+       .TTV_partners {
+              width: 8rem;
+              height: 6rem;
+              border-radius: 1.25rem;
+              top: 43rem;
+              left: 13rem;
+
+       }
+
+       .TTV_partners>img {
+              top: -5rem;
+              left: 8rem;
+       }
+
+       .TTV_partners>div {
+              margin-top: 20px;
+              margin-left: 20px;
+       }
+
+       .TTV_partners>div>h1 {
+              font-size: 1.4rem;
+       }
+
+       .TTV_partners>div>h2 {
+              font-size: 0.7rem;
+       }
+}
+
+@media (min-width:300px) and (max-width: 400px) {
+       .trust_The_Vsion {
+              height: 62rem;
+              width: 100%;
+       }
+
+       .trust_The_Vsion>h1 {
+              margin-top: 2rem;
+              font-size: 2rem;
+       }
+
+       .trust_The_Vsion>h1>span::after {
+              height: 17px;
+              width: 100px;
+              bottom: 5%;
+       }
+
+       .TTV_palcement {
+              top: 15rem;
+              left: 12rem;
+              width: 10rem;
+              height: 6rem;
+       }
+
+       .TTV_palcement>img {
+              top: -1rem;
+              left: -7rem;
+       }
+
+       .TTV_palcement>div {
+              margin-top: 20px;
+              margin-left: 20px;
+       }
+
+       .TTV_palcement>div>h1 {
+              font-size: 1.4rem;
+       }
+
+       .TTV_palcement>div>h2 {
+              font-size: 0.7rem;
+       }
+
+       .TTV_programs {
+              top: 24rem;
+              left: 3rem;
+              width: 6rem;
+              height: 6rem;
+       }
+
+       .TTV_programs>img {
+              position: absolute;
+              top: -2rem;
+              left: 6rem;
+       }
+
+       .TTV_programs>div {
+              margin-top: 20px;
+              margin-left: 20px;
+       }
+
+       .TTV_programs>div>h1 {
+              font-size: 1.4rem;
+       }
+
+       .TTV_programs>div>h2 {
+              font-size: 0.7rem;
+       }
+
+       .TTV_partners {
+              width: 8rem;
+              height: 6rem;
+              border-radius: 1.25rem;
+              top: 43rem;
+              left: 8rem;
+
+       }
+
+       .TTV_partners>img {
+              top: -5rem;
+              left: 8rem;
+       }
+
+       .TTV_partners>div {
+              margin-top: 20px;
+              margin-left: 20px;
+       }
+
+       .TTV_partners>div>h1 {
+              font-size: 1.4rem;
+       }
+
+       .TTV_partners>div>h2 {
+              font-size: 0.7rem;
+       }
 }

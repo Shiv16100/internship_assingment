@@ -28,3 +28,22 @@
        font-weight: 300;
        line-height: normal;
 }
+@media (min-width:300px ) and (max-width: 1400px) {
+       .main_MP {
+              /* background-color: red; */
+              width: 16rem;
+              height: 18rem;
+              padding: 0px 10px;
+              padding-top: 30px;
+              /* margin-left: 10px; */
+       }
+       
+       .main_MP>img {
+              width: 134px !important;
+              height: 60px !important;
+            }
+       
+       .main_MP>p {
+              font-size: 1rem;
+       }
+}

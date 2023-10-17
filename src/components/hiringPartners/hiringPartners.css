@@ -1,36 +1,68 @@
-#main_hiring_partners
-{
-       position: relative;
-       height: 140px;
-       width: 100%;
-       /* animation: anim 20sec linear infinite; */
-       overflow: hidden;
+#main_hiring_partners {
+  position: relative;
+  height: 140px;
+  width: 100%;
+  /* animation: anim 20sec linear infinite; */
+  overflow: hidden;
 }
 
-#hiring_partners_display{
-       margin-top: 40px;
-       overflow: hidden;
-       width: 200%;
-       display: flex;
-       justify-content: space-around;
+#hiring_partners_display {
+  margin-top: 40px;
+  overflow: hidden;
+  width: 200%;
+  display: flex;
+  justify-content: space-around;
 
 
-       height: 60px;
-       align-items: center;
-       position: absolute;
-       left: 50%;
-       transform: translate(-50%,0);
-       /* overflow: hidden; */
-       animation: _slide_ 25s infinite;
-       animation-timing-function: linear;
-     }
-   
-     @keyframes _slide_ {
-       0% {
-         transform: translateX(-25%);
-       }
-       
-       100% {
-         transform: translateX(-75%);
-       }
-     }
+  height: 60px;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  /* overflow: hidden; */
+  animation: _slide_ 25s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes _slide_ {
+  0% {
+    transform: translateX(-25%);
+  }
+
+  100% {
+    transform: translateX(-75%);
+  }
+}
+
+
+@media (min-width:1200px) and (max-width: 1400px) {}
+
+@media (min-width:1000px) and (max-width: 1200px) {}
+
+@media (min-width:800px) and (max-width: 1000px) {
+  #hiring_partners_display>img{
+    height: 20px;
+    width: 70px;
+  }
+}
+
+@media (min-width:600px) and (max-width: 800px) {
+  #hiring_partners_display>img{
+    height: 20px;
+    width: 60px;
+  }
+}
+
+@media (min-width:400px) and (max-width: 600px) {
+  #hiring_partners_display>img{
+    height: 20px;
+    width: 50px;
+  }
+}
+
+@media (min-width:300px) and (max-width: 400px) {
+  #hiring_partners_display>img{
+    height: 20px;
+    width: 50px;
+  }
+}

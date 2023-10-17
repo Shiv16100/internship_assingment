@@ -93,3 +93,215 @@
        line-height: 174.5%;
        /* 2.18125rem */
 }
+
+@media (min-width:1200px) and (max-width: 1400px) {}
+
+@media (min-width:1000px) and (max-width: 1200px) {
+       .what_is_content {
+              height: 40rem;
+       }
+
+       .what_is_content>h1 {
+              margin-bottom: 4rem;
+              font-size: 2.2rem;
+       }
+
+       .what_is_content>h1>span::after {
+              height: 17px;
+              width: 225px;
+              bottom: 5%;
+       }
+
+       .what_is_content>p {
+              font-size: 1.1rem;
+       }
+
+       .meet_the_founder {
+              height: 30rem;
+              width: 90%;
+              bottom: -15rem;
+       }
+
+       .meet_the_founder>img {
+              width: 18rem;
+              height: 18rem;
+              margin-right: 4rem;
+              margin-left: 4rem;
+       }
+
+       .founder_conent>h1 {
+              font-size: 1.8rem;
+       }
+
+       .founder_conent>p {
+              font-size: 1rem;
+       }
+}
+
+@media (min-width:800px) and (max-width: 1000px) {
+       .what_is_content {
+              height: 40rem;
+       }
+
+       .what_is_content>h1 {
+              margin-bottom: 4rem;
+              font-size: 2.2rem;
+       }
+
+       .what_is_content>h1>span::after {
+              height: 17px;
+              width: 225px;
+              bottom: 5%;
+       }
+
+       .what_is_content>p {
+              font-size: 1.1rem;
+       }
+
+       .meet_the_founder {
+              height: 30rem;
+              width: 90%;
+              bottom: -15rem;
+       }
+
+       .meet_the_founder>img {
+              width: 18rem;
+              height: 18rem;
+              margin-right: 2rem;
+              margin-left: 2rem;
+       }
+
+       .founder_conent>h1 {
+              font-size: 1.8rem;
+       }
+
+       .founder_conent>p {
+              font-size: 1rem;
+       }
+}
+
+@media (min-width:600px) and (max-width: 800px) {
+       .what_is_content {
+              height: 34rem;
+       }
+
+       .what_is_content>h1 {
+              margin-bottom: 4rem;
+              font-size: 2rem;
+       }
+
+       .what_is_content>h1>span::after {
+              height: 17px;
+              width: 225px;
+              bottom: 5%;
+       }
+
+       .what_is_content>p {
+              font-size: 0.8rem;
+       }
+
+       .meet_the_founder {
+              height: 26rem;
+              width: 90%;
+              bottom: -13rem;
+       }
+
+       .meet_the_founder>img {
+              width: 11rem;
+              height: 11rem;
+              margin-right: 1rem;
+              margin-left: 1rem;
+       }
+
+       .founder_conent>h1 {
+              font-size: 1.5rem;
+       }
+
+       .founder_conent>p {
+              font-size: 0.8rem;
+       }
+}
+
+@media (min-width:400px) and (max-width: 600px) {
+       .what_is_content {
+              height: 28rem;
+       }
+
+       .what_is_content>h1 {
+              margin-bottom: 4rem;
+              font-size: 1.5rem;
+       }
+
+       .what_is_content>h1>span::after {
+              height: 17px;
+              width: 225px;
+              bottom: 5%;
+       }
+
+       .what_is_content>p {
+              font-size: 0.6rem;
+       }
+
+       .meet_the_founder {
+              height: 20rem;
+              width: 90%;
+              bottom: -10rem;
+       }
+
+       .meet_the_founder>img {
+              width: 7rem;
+              height: 7rem;
+              margin-right: 0.5rem;
+              margin-left: 0.5rem;
+       }
+
+       .founder_conent>h1 {
+              font-size: 1rem;
+       }
+
+       .founder_conent>p {
+              font-size: 0.6rem;
+       }
+}
+
+@media (min-width:300px) and (max-width: 400px) {
+       .what_is_content {
+              height: 28rem;
+       }
+
+       .what_is_content>h1 {
+              margin-bottom: 4rem;
+              font-size: 1.5rem;
+       }
+
+       .what_is_content>h1>span::after {
+              height: 17px;
+              width: 225px;
+              bottom: 5%;
+       }
+
+       .what_is_content>p {
+              font-size: 0.6rem;
+       }
+
+       .meet_the_founder {
+              height: 16rem;
+              width: 90%;
+              bottom: -8rem;
+       }
+
+       .meet_the_founder>img {
+              width: 5rem;
+              height: 5rem;
+              margin-right: 0.5rem;
+              margin-left: 0.5rem;
+       }
+
+       .founder_conent>h1 {
+              font-size: 0.8rem;
+       }
+
+       .founder_conent>p {
+              font-size: 0.5rem;
+       }
+}

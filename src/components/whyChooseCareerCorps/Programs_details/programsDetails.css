@@ -2,18 +2,18 @@
        width: 440px;
        height: 591px;
        border-radius: 20px;
-       padding:10px 20px;
+       padding: 10px 0px;
        border: 2px solid rgba(0, 0, 0, 0.20);
        background: linear-gradient(154deg, rgba(121, 117, 131, 0.20) 5.35%, rgba(54, 53, 103, 0.20) 83.85%), rgba(49, 48, 54, 0.30);
        display: flex;
        justify-content: space-around;
-       align-items: left;
+       align-items: center;
        flex-direction: column;
        /* background: #202125; */
 }
 
 #main_programsDetails img {
-       width: 400px;
+       width: 90%;
        height: 284.932px;
 }
 
@@ -24,7 +24,7 @@
        font-size: 30px;
        font-style: normal;
        font-weight: 600;
-      
+
 }
 
 #main_programsDetails h2 {
@@ -35,8 +35,8 @@
 }
 
 #main_programsDetails button {
-       
-       width: 402px;
+
+       width: 90%;
        height: 76px;
        flex-shrink: 0;
        border: none;
@@ -46,4 +46,75 @@
        font-size: 24px;
        font-style: normal;
        font-weight: 600;
+}
+
+/* -------------------------------------------------------------------- */
+
+@media (min-width: 1380px) and (max-width: 1550px) {
+       #main_programsDetails {
+              width: 380px;
+              height: 500px;
+       }
+
+       #main_programsDetails img {
+              border-radius: 10px;
+              height: 220px;
+       }
+
+       #main_programsDetails h1 {
+              font-size: 25px;
+       }
+
+       #main_programsDetails h2 {
+              font-size: 18px;
+              margin: 0px 10px;
+       }
+}
+
+@media (min-width: 1115px) and (max-width: 1380px) {
+       #main_programsDetails {
+              width: 320px;
+              height: 480px;
+       }
+
+       #main_programsDetails img {
+              border-radius: 10px;
+              height: 210px;
+       }
+
+       #main_programsDetails h1 {
+              font-size: 22px;
+       }
+
+       #main_programsDetails h2 {
+              font-size: 17px;
+              margin: 0px 10px;
+       }
+
+}
+
+@media (min-width: 300px) and (max-width: 1115px) {
+       #main_programsDetails {
+              width: 270px;
+              height: 400px;
+       }
+
+       #main_programsDetails img {
+              border-radius: 10px;
+              height: 150px;
+       }
+
+       #main_programsDetails h1 {
+              font-size: 19px;
+       }
+
+       #main_programsDetails h2 {
+              font-size: 14px;
+              margin: 0px 10px;
+       }
+
+       #main_programsDetails button {
+              height: 60px;
+              font-size: 20px;
+       }
 }

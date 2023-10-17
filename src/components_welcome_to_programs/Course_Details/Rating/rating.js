@@ -148,7 +148,7 @@ Rating.propTypes = {
 
 Rating.defaultProps = {
   ratingInPercent: 50,
-  iconSize: SIZES.LARGE.key,
+  // iconSize: 20,
   onClick: () => null,
   showOutOf: false,
   enableUserInteraction: false

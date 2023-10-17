@@ -34,3 +34,161 @@
   font-weight: 500;
   line-height: 137.523%;
 }
+@media (min-width:1200px ) and (max-width: 1400px) {
+       
+}
+@media (min-width:1000px ) and (max-width: 1200px) {
+       
+}
+@media (min-width:800px ) and (max-width: 1000px) {
+  #course-finding-main-div {
+    width: 100%;
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #course-finding-heading {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130.5%;
+    width: 698px;
+    height: 104px;
+    flex-shrink: 0;
+    margin-bottom: 50px;
+  }
+  #course-finding-main-div button {
+    width: 224px;
+    height: 74px;
+    flex-shrink: 0;
+    border-radius:10px;
+    background: #ffb000;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 137.523%;
+  }
+}
+@media (min-width:600px ) and (max-width: 800px) {
+  #course-finding-main-div {
+    width: 100%;
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #course-finding-heading {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130.5%;
+    width: 90%;
+    height: 104px;
+    flex-shrink: 0;
+    margin-bottom: 50px;
+  }
+  #course-finding-main-div button {
+    width: 224px;
+    height: 74px;
+    flex-shrink: 0;
+    border-radius:10px;
+    background: #ffb000;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 137.523%;
+  }
+}
+@media (min-width:400px ) and (max-width: 600px) {
+  #course-finding-main-div {
+    width: 100%;
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #course-finding-heading {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130.5%;
+    width: 90%;
+    /* height: 104px; */
+    flex-shrink: 0;
+    margin-bottom: 90px;
+  }
+  #course-finding-main-div button {
+    width: 224px;
+    height: 74px;
+    flex-shrink: 0;
+    border-radius:10px;
+    background: #ffb000;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 137.523%;
+  }
+}
+@media (min-width:300px ) and (max-width: 400px) {
+  #course-finding-main-div {
+    width: 100%;
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #course-finding-heading {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130.5%;
+    width: 90%;
+    /* height: 104px; */
+    flex-shrink: 0;
+    margin-bottom: 90px;
+  }
+  #course-finding-main-div button {
+    width: 204px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius:10px;
+    background: #ffb000;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 137.523%;
+  }
+} 

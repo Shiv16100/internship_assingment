@@ -1,5 +1,13 @@
 import "./TopView.css";
+import { Swiper, SwiperSlide } from 'swiper/react';
 
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+
+
+// import required modules
+import { Autoplay, Pagination } from 'swiper/modules';
 const Topview = () => {
   return (
     <div id="main_top-view-career-programs-1">

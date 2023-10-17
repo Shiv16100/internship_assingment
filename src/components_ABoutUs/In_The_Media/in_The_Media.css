@@ -133,5 +133,329 @@
 }
 .social_logo_ITM>img{
        margin-right: 1rem;
-
+       cursor: pointer;
 }
+
+@media (min-width:1200px ) and (max-width: 1400px) {
+      
+       .map>div:nth-of-type(1){
+              display: flex;
+       }
+       .map>h1 {
+              font-size: 2.5rem;
+       }
+       
+       .map>h1>span::after {
+              height: 17px;
+              width: 127px;
+       }
+       
+       .map {
+              width: 100%;
+              height: 48rem;
+       }
+       
+       .map>div {
+              height: 30rem;
+              width: 80%;
+       }
+       
+       .map_left {
+              width: 50%;
+              height: 100%;
+       }
+       
+       .map_right {
+              width: 50%;
+              height: 100%;
+       }
+       
+       .office_ITM>h1 {
+              font-size: 2.1875rem;
+       }
+       
+       .office_ITM>p {
+              width: 30rem;
+              font-size: 1.5rem;
+       }
+       
+       .social_ITM>h1 {
+              font-size: 2.1875rem;
+              margin-bottom: 1.5rem;
+       }
+       .social_logo_ITM>img{
+              margin-right: 1rem;
+       
+       }
+}
+@media (min-width:1000px ) and (max-width: 1200px) {
+       
+       .map>div:nth-of-type(1){
+              display: flex;
+              height: 25rem;
+       }
+       .map>h1 {
+              font-size: 2.5rem;
+       }
+       
+       .map>h1>span::after {
+              height: 17px;
+              width: 127px;
+       }
+       
+       .map {
+              width: 100%;
+              height: 48rem;
+       }
+       
+       .map>div {
+              height: 30rem;
+              width: 80%;
+       }
+       
+       .map_left {
+              width: 50%;
+              height: 100%;
+       }
+       
+       .map_right {
+              width: 50%;
+              height: 100%;
+       }
+       
+       .office_ITM>h1 {
+              font-size: 2.1875rem;
+       }
+       
+       .office_ITM>p {
+              width: 30rem;
+              font-size: 1.5rem;
+       }
+       
+       .social_ITM>h1 {
+              font-size: 2.1875rem;
+              margin-bottom: 1.5rem;
+       }
+       .social_logo_ITM>img{
+              margin-right: 1rem;
+       
+       }
+}
+@media (min-width:800px ) and (max-width: 1000px) {
+       .map>div:nth-of-type(1){
+              display: flex;
+              height: 25rem;
+       }
+       .map>h1 {
+              font-size: 2.2rem;
+       }
+       
+       .map>h1>span::after {
+              height: 17px;
+              width: 107px;
+       }
+       
+       .map {
+              width: 100%;
+              height: 45rem;
+       }
+       
+       .map>div {
+              height: 30rem;
+              width: 80%;
+       }
+       
+       .map_left {
+              width: 50%;
+              height: 100%;
+       }
+       
+       .map_right {
+              width: 50%;
+              height: 100%;
+       }
+       
+       .office_ITM>h1 {
+              font-size: 2rem;
+       }
+       
+       .office_ITM>p {
+              width: 15rem;
+              font-size: 1.1rem;
+              /* margin-right: 20px; */
+       }
+       
+       .social_ITM>h1 {
+              font-size: 2rem;
+              margin-bottom: 1.5rem;
+       }
+       .social_logo_ITM>img{
+              margin-right: 1rem;
+              width: 40px;
+       
+       }
+}
+@media (min-width:600px ) and (max-width: 800px) {
+       .map>div:nth-of-type(1){
+              display: flex;
+              height: 25rem;
+       }
+       .map>h1 {
+              font-size: 2.2rem;
+       }
+       
+       .map>h1>span::after {
+              height: 17px;
+              width: 107px;
+       }
+       
+       .map {
+              width: 100%;
+              height: 45rem;
+       }
+       
+       .map>div {
+              height: 30rem;
+              width: 90%;
+       }
+       
+       .map_left {
+              width: 50%;
+              height: 100%;
+       }
+       
+       .map_right {
+              width: 50%;
+              height: 100%;
+       }
+       
+       .office_ITM>h1 {
+              font-size: 2rem;
+       }
+       
+       .office_ITM>p {
+              width: 15rem;
+              font-size: 1.1rem;
+              /* margin-right: 20px; */
+       }
+       
+       .social_ITM>h1 {
+              font-size: 2rem;
+              margin-bottom: 1.5rem;
+       }
+       .social_logo_ITM>img{
+              margin-right: 1rem;
+              width: 40px;
+       
+       } 
+}
+@media (min-width:400px ) and (max-width: 600px) {
+       .map>div:nth-of-type(1){
+              display: flex;
+              height: 23rem;
+       }
+       .map>h1 {
+              font-size: 2rem;
+       }
+       
+       .map>h1>span::after {
+              height: 17px;
+              width: 100px;
+       }
+       
+       .map {
+              width: 100%;
+              height: 40rem;
+       }
+       
+       .map>div {
+              /* height: 24rem; */
+              width: 95%;
+       }
+       
+       .map_left {
+              width: 50%;
+              height: 100%;
+       }
+       
+       .map_right {
+              width: 50%;
+              height: 100%;
+       }
+       
+       .office_ITM>h1 {
+              font-size: 1.8rem;
+       }
+       
+       .office_ITM>p {
+              width: 13rem;
+              font-size: 1rem;
+              /* margin-right: 20px; */
+       }
+       
+       .social_ITM>h1 {
+              font-size: 1.8rem;
+              margin-bottom: 1.5rem;
+       }
+       .social_logo_ITM>img{
+              margin-right: 1rem;
+              width: 30px;
+              
+       
+       } 
+}
+@media (min-width:300px ) and (max-width: 400px) {
+       .map>div:nth-of-type(1){
+              display: flex;
+              height: 20rem;
+       }
+       .map>h1 {
+              font-size: 1.7rem;
+       }
+       
+       .map>h1>span::after {
+              height: 17px;
+              width: 83px;
+       }
+       
+       .map {
+              width: 100%;
+              height: 33rem;
+       }
+       
+       .map>div {
+              /* height: 24rem; */
+              width: 95%;
+       }
+       
+       .map_left {
+              width: 50%;
+              height: 100%;
+       }
+       
+       .map_right {
+              width: 50%;
+              height: 100%;
+       }
+       
+       .office_ITM>h1 {
+              font-size: 1.8rem;
+       }
+       
+       .office_ITM>p {
+              width: 12rem;
+              font-size: 0.8rem;
+              /* margin-right: 20px; */
+       }
+       
+       .social_ITM>h1 {
+              font-size: 1.8rem;
+              margin-bottom: 1.5rem;
+       }
+       .social_logo_ITM>img{
+              margin-right: 1rem;
+              width: 25px;
+              
+       
+       } 
+} 

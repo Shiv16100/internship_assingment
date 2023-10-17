@@ -1,19 +1,20 @@
 #bCDP_grid {
-       width: 492px;
+       width: 520px;
        height: 365px;
        border-radius: 18px;
        border: 2px solid rgba(255, 255, 255, 0.63);
        display: flex;
        flex-direction: column;
        justify-content: space-between;
-       
+
 }
 
 #bCDP_grid>img {
-       width: 486px;
+       width: 100%;
        height: 151px;
 }
-#bCDP_context{
+
+#bCDP_context {
        display: flex;
        flex-direction: column;
        justify-content: space-around;
@@ -29,7 +30,7 @@
        font-size: 35px;
        font-style: normal;
        font-weight: 500;
-       line-height: 124%;
+       /* line-height: 124%; */
        /* 43.4px */
 }
 
@@ -42,3 +43,156 @@
        line-height: 124%;
        /* 24.8px */
 }
+
+/* ------------------------------------------------------------------ */
+
+@media (min-width:1200px ) and (max-width: 1400px) {
+       
+}
+@media (min-width:1000px ) and (max-width: 1200px) {
+       
+       #bCDP_grid {
+              width: 420px;
+              height: 365px;
+              border-radius: 18px;
+              border: 2px solid rgba(255, 255, 255, 0.63);
+       
+       }
+       
+       #bCDP_grid>img {
+              width: 100%;
+              height: 151px;
+       }
+       
+       #bCDP_context {
+              height: 50%;
+              padding: 0 10%;
+              padding-bottom: 20px;
+       }
+       
+       #bCDP_grid>div>h1 {
+              font-size: 30px;
+       }
+       
+       #bCDP_grid>div>h2 {
+              font-size: 20px;
+              /* 24.8px */
+       }
+
+}
+@media (min-width:800px ) and (max-width: 1000px) {
+       #bCDP_grid {
+              width: 350px;
+              height: 365px;
+              border-radius: 18px;
+              border: 2px solid rgba(255, 255, 255, 0.63);
+       
+       }
+       
+       #bCDP_grid>img {
+              width: 100%;
+              height: 151px;
+       }
+       
+       #bCDP_context {
+              height: 50%;
+              padding: 0 10%;
+              padding-bottom: 20px;
+       }
+       
+       #bCDP_grid>div>h1 {
+              font-size: 30px;
+       }
+       
+       #bCDP_grid>div>h2 {
+              font-size: 20px;
+              /* 24.8px */
+       }
+}
+@media (min-width:600px ) and (max-width: 800px) {
+       #bCDP_grid {
+              width: 250px;
+              height: 290px;
+              border-radius: 18px;
+              border: 2px solid rgba(255, 255, 255, 0.63);
+       
+       }
+       
+       #bCDP_grid>img {
+              width: 100%;
+              height: 151px;
+       }
+       
+       #bCDP_context {
+              height: 50%;
+              padding: 0 3%;
+              padding-bottom: 20px;
+       }
+       
+       #bCDP_grid>div>h1 {
+              font-size: 17px;
+       }
+       
+       #bCDP_grid>div>h2 {
+              font-size: 15px;
+              /* 24.8px */
+       }
+}
+@media (min-width:400px ) and (max-width: 600px) {
+       #bCDP_grid {
+              width: 180px;
+              height: 230px;
+              border-radius: 18px;
+              border: 2px solid rgba(255, 255, 255, 0.63);
+       
+       }
+       
+       #bCDP_grid>img {
+              width: 100%;
+              height: 120px;
+       }
+       
+       #bCDP_context {
+              height: 50%;
+              padding: 0 3%;
+              padding-bottom: 20px;
+       }
+       
+       #bCDP_grid>div>h1 {
+              font-size: 13px;
+       }
+       
+       #bCDP_grid>div>h2 {
+              font-size: 10px;
+              /* 24.8px */
+       }
+}
+@media (min-width:300px ) and (max-width: 400px) {
+       #bCDP_grid {
+              width: 160px;
+              height: 220px;
+              border-radius: 18px;
+              border: 2px solid rgba(255, 255, 255, 0.63);
+       
+       }
+       
+       #bCDP_grid>img {
+              width: 100%;
+              height: 120px;
+       }
+       
+       #bCDP_context {
+              height: 50%;
+              padding: 0 3%;
+              padding-bottom: 20px;
+       }
+       
+       #bCDP_grid>div>h1 {
+              font-size: 11px;
+       }
+       
+       #bCDP_grid>div>h2 {
+              font-size: 9px;
+              /* 24.8px */
+       }
+} 

@@ -1,28 +1,123 @@
-.main_cariculam{
+.main_cariculam {
        padding: 20px;
-       width: 60rem;
+       width: 100%;
        /* margin-top: 11rem; */
        display: flex;
        justify-content: space-between;
        align-items: center;
 }
-.content_cariculam{
+
+.content_cariculam {
        text-align: left;
        margin-left: 50px;
 }
-.content_cariculam>h1{
+
+.content_cariculam>h1 {
        color: #0047AB;
        font-family: Poppins;
        font-size: 2.5rem;
        font-style: normal;
        font-weight: 600;
-       line-height: 150%; /* 3.75rem */
+       line-height: 150%;
+       /* 3.75rem */
 }
-.content_cariculam>p{
+
+.content_cariculam>p {
        color: #000;
-font-family: Poppins;
-font-size: 1.875rem;
-font-style: normal;
-font-weight: 400;
-line-height: 150%; /* 2.8125rem */
+       font-family: Poppins;
+       font-size: 1.875rem;
+       font-style: normal;
+       font-weight: 400;
+       line-height: 150%;
+       /* 2.8125rem */
+}
+
+@media (min-width:1200px) and (max-width: 1400px) {}
+
+@media (min-width:1000px) and (max-width: 1200px) {}
+
+@media (min-width:800px) and (max-width: 1000px) {
+       .content_cariculam>h1 {
+              font-size: 2.2rem;
+       }
+
+       .content_cariculam>p {
+              font-size: 1.3rem;
+       }
+
+}
+
+@media (min-width:600px) and (max-width: 800px) {
+       .content_cariculam>h1 {
+              font-size: 2rem;
+       }
+
+       .content_cariculam>p {
+              font-size: 1.1rem;
+       }
+
+       .main_cariculam>img {
+              width: 130px;
+       }
+
+       .top_div>img:nth-last-of-type(1) {
+              width: 90px;
+       }
+
+       .bottom_div>img:nth-last-of-type(1) {
+              width: 90px;
+       }
+}
+
+@media (min-width:400px) and (max-width: 600px) {
+       .content_cariculam {
+              margin-left: 20px;
+       }
+
+       .content_cariculam>h1 {
+              font-size: 1.5rem;
+       }
+
+       .content_cariculam>p {
+              font-size: 0.7rem;
+       }
+
+       .main_cariculam>img {
+              width: 80px;
+       }
+
+       .top_div>img:nth-last-of-type(1) {
+              width: 60px;
+       }
+
+       .bottom_div>img:nth-last-of-type(1) {
+              width: 60px;
+       }
+
+}
+
+@media (min-width:300px) and (max-width: 400px) {
+       .content_cariculam {
+              margin-left: 20px;
+       }
+
+       .content_cariculam>h1 {
+              font-size: 1.5rem;
+       }
+
+       .content_cariculam>p {
+              font-size: 0.7rem;
+       }
+
+       .main_cariculam>img {
+              width: 80px;
+       }
+
+       .top_div>img:nth-last-of-type(1) {
+              width: 60px;
+       }
+
+       .bottom_div>img:nth-last-of-type(1) {
+              width: 60px;
+       }
 }

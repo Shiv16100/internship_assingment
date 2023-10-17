@@ -1,10 +1,10 @@
 #card-main-div{
-    width:400px;
+    width:350px;
     height: 455px;
     border: 2px solid #e5e7ebe0;
     border-radius: 20px;
-    padding-left:30px;
-    padding-right: 30px;
+    padding-left:20px;
+    padding-right: 20px;
     font-family: Poppins;
     overflow: hidden;
     /* background-color: red; */
@@ -26,7 +26,7 @@
     color:#000000;
     margin-top: 70px;
     text-transform: capitalize;
-    width:220px;  
+    width: 100%;
 }
 #card-div-1  p{
     font-family: Poppins; 
@@ -36,6 +36,7 @@
     color:#000000;
     padding-top:23px;
     text-transform: capitalize;
+    margin-bottom: 80px;
 
 }
 #card-main-div button{
@@ -55,7 +56,7 @@
 #card-main-info{
     display: flex;
     flex-wrap: wrap;
-    width: 341px;
+    width: 96%;
     height: 117px;
     justify-content: space-between;
     margin-top: 5px;

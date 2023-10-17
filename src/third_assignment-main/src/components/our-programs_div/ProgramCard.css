@@ -3,13 +3,14 @@
   margin: 0;
 }
 #main-card-div-abt-us {
-  width: 400px;
+  width: 348px;
   height: 300px;
   flex-shrink: 0;
   background-color: #fff;
   border-radius: 20px;
   border: 2px solid #e5e7eb;
-  transition: all ease 2s;
+  /* transition: all ease 2s; */
+  margin: 10px;
 }
 #first-box-1 {
   display: flex;

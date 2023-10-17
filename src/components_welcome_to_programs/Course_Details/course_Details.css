@@ -1,8 +1,11 @@
 .main_course_Details {
        width: 100%;
        height: 61rem;
-       padding: 5% 10%;
+       /* padding: 0% 10%; */
        background: #202125;
+       display: flex;
+       align-items: center;
+       justify-content: center;
        /* box-sizing: content-box; */
 }
 
@@ -121,8 +124,8 @@
 }
 
 .details_CD {
-      
-       
+
+
        margin-top: 8rem;
        width: 100%;
        height: 34.375rem;
@@ -168,33 +171,38 @@
        height: 70%;
        padding: 4% 8%;
 }
-.price_CD>div>h1{
+
+.price_CD>div>h1 {
        color: #FFB000;
        margin-top: 4rem;
-/* text-align: center; */
-font-family: Poppins;
-font-size: 3.125rem;
-font-style: normal;
-font-weight: 600;
-line-height: 137.523%; /* 4.29756rem */
+       /* text-align: center; */
+       font-family: Poppins;
+       font-size: 3.125rem;
+       font-style: normal;
+       font-weight: 600;
+       line-height: 137.523%;
+       /* 4.29756rem */
 }
-.price_CD>div>p{
+
+.price_CD>div>p {
        color: #AAAEB1;
-/* text-align: center; */
-font-family: Poppins;
-font-size: 1.125rem;
-font-style: normal;
-font-weight: 500;
-line-height: 137.523%; /* 1.54713rem */
+       /* text-align: center; */
+       font-family: Poppins;
+       font-size: 1.125rem;
+       font-style: normal;
+       font-weight: 500;
+       line-height: 137.523%;
+       /* 1.54713rem */
 }
 
 
 
-.bottom_details>div{
+.bottom_details>div {
        display: flex;
        align-items: center;
        justify-content: space-between;
 }
+
 .students_enrolled {
        width: 20.8125rem;
        height: 4.4375rem;
@@ -241,3 +249,572 @@ line-height: 137.523%; /* 1.54713rem */
        text-transform: capitalize;
 }
 
+
+/* 
+@media (min-width:1200px ) and (max-width: 1400px) {
+       
+}
+@media (min-width:1000px ) and (max-width: 1200px) {
+       
+}
+@media (min-width:800px ) and (max-width: 1000px) {
+       
+}
+@media (min-width:600px ) and (max-width: 800px) {
+       
+}
+@media (min-width:400px ) and (max-width: 600px) {
+       
+}
+@media (min-width:300px ) and (max-width: 400px) {
+       
+} */
+
+
+@media (min-width:1200px) and (max-width: 1400px) {
+
+       .Certificates {
+              width: 15rem;
+              height: 8.75rem;
+       }
+
+       .Certificates>div>h1 {
+              font-size: 2.4rem;
+              font-weight: 700;
+       }
+
+       .Certificates>div>p {
+              font-size: 1.875rem;
+              font-weight: 300;
+       }
+
+       .ETE {
+              width: 22rem;
+              height: 8.75rem;
+       }
+
+       .ETE>div>h1 {
+              font-size: 2.4rem;
+              font-weight: 700;
+       }
+
+
+       .ETE>div>p {
+              font-size: 1.875rem;
+              font-weight: 300;
+       }
+
+       .live_Hour {
+              width: 23rem;
+              height: 8.75rem;
+       }
+
+       .live_Hour>div>h1 {
+              font-size: 2.4rem;
+              font-weight: 700;
+       }
+
+       .live_Hour>div>p {
+              font-size: 1.875rem;
+              font-weight: 300;
+       }
+
+
+}
+
+@media (min-width:1000px) and (max-width: 1200px) {
+       .Certificates {
+              width: 11rem;
+              height: 6.75rem;
+       }
+
+       .Certificates>div>h1 {
+              font-size: 2.2rem;
+              font-weight: 700;
+       }
+
+       .Certificates>div>p {
+              font-size: 1.3rem;
+              font-weight: 300;
+       }
+
+       .ETE {
+              width: 19rem;
+              height: 6.75rem;
+       }
+
+       .ETE>div>h1 {
+              font-size: 2.2rem;
+              font-weight: 700;
+       }
+
+
+       .ETE>div>p {
+              font-size: 1.3rem;
+              font-weight: 300;
+       }
+
+       .live_Hour {
+              width: 20rem;
+              height: 6.75rem;
+       }
+
+       .live_Hour>div>h1 {
+              font-size: 2.2rem;
+              font-weight: 700;
+       }
+
+       .live_Hour>div>p {
+              font-size: 1.3rem;
+              font-weight: 300;
+       }
+
+       .top_details {
+              width: 100%;
+              height: 30%;
+              padding: 4% 5%;
+       }
+
+       .top_details>div>p {
+              font-size: 1.25rem;
+              font-style: normal;
+              font-weight: 400;
+       }
+
+       .top_details>div>h1 {
+              font-size: 2.8125rem;
+              font-style: normal;
+              font-weight: 600;
+       }
+
+       .bottom_details {
+              padding: 4% 5%;
+       }
+
+}
+
+@media (min-width:800px) and (max-width: 1000px) {
+
+       .Certificates {
+              width: 8rem;
+              height: 6.75rem;
+       }
+
+       .Certificates>div>h1 {
+              font-size: 2rem;
+              font-weight: 700;
+       }
+
+       .Certificates>div>p {
+              font-size: 1rem;
+              font-weight: 300;
+       }
+
+       .ETE {
+              width: 16rem;
+              height: 6.75rem;
+       }
+
+       .ETE>div>h1 {
+              font-size: 2rem;
+              font-weight: 700;
+       }
+
+
+       .ETE>div>p {
+              font-size: 1rem;
+              font-weight: 300;
+       }
+
+       .live_Hour {
+              width: 17rem;
+              height: 6.75rem;
+       }
+
+       .live_Hour>div>h1 {
+              font-size: 2rem;
+              font-weight: 700;
+       }
+
+       .live_Hour>div>p {
+              font-size: 1rem;
+              font-weight: 300;
+       }
+
+       .top_details {
+              width: 100%;
+              height: 30%;
+              padding: 4% 5%;
+       }
+
+       .top_details>div>p {
+              font-size: 1.25rem;
+              font-style: normal;
+              font-weight: 400;
+       }
+
+       .top_details>div>h1 {
+              font-size: 2.8125rem;
+              font-style: normal;
+              font-weight: 600;
+       }
+
+       .bottom_details {
+              padding: 4% 5%;
+       }
+
+       .top_details>div>h1 {
+              font-size: 2.2rem;
+              font-style: normal;
+              font-weight: 600;
+       }
+}
+
+@media (min-width:600px) and (max-width: 800px) {
+       .Certificates {
+              width: 7rem;
+              height: 6.75rem;
+       }
+
+       .Certificates>div>h1 {
+              font-size: 1.6rem;
+              font-weight: 700;
+       }
+
+       .Certificates>div>p {
+              font-size: 0.8rem;
+              font-weight: 300;
+       }
+
+       .ETE {
+              width: 13rem;
+              height: 6.75rem;
+       }
+
+       .ETE>div>h1 {
+              font-size: 1.6rem;
+              font-weight: 700;
+       }
+
+
+       .ETE>div>p {
+              font-size: 0.8rem;
+              font-weight: 300;
+       }
+
+       .live_Hour {
+              width: 14rem;
+              height: 6.75rem;
+       }
+
+       .live_Hour>div>h1 {
+              font-size: 1.6rem;
+              font-weight: 700;
+       }
+
+       .live_Hour>div>p {
+              font-size: 0.8rem;
+              font-weight: 300;
+       }
+       .details_CD {
+              margin-top: 4rem;
+       }
+       .top_details {
+              width: 100%;
+              height: 30%;
+              padding: 4% 4%;
+              flex-direction: column;
+
+       }
+
+       .top_details>div>p {
+              font-size: 1rem;
+              font-style: normal;
+              font-weight: 400;
+       }
+
+       .top_details>div>h1 {
+              font-size: 2.5rem;
+              font-style: normal;
+              font-weight: 600;
+       }
+
+       .bottom_details {
+              padding: 4% 4%;
+       }
+
+       .top_details>div>h1 {
+              font-size: 1.6rem;
+              font-style: normal;
+              font-weight: 600;
+       }
+
+       .price_CD>div>h1 {
+              color: #FFB000;
+              margin-top: 4rem;
+              /* text-align: center; */
+              font-family: Poppins;
+              font-size: 2.4rem;
+              font-style: normal;
+              font-weight: 600;
+              line-height: 137.523%;
+              /* 4.29756rem */
+       }
+
+       .price_CD>div>p {
+              color: #AAAEB1;
+              /* text-align: center; */
+              font-family: Poppins;
+              font-size: 0.9rem;
+              font-style: normal;
+              font-weight: 500;
+              line-height: 137.523%;
+              /* 1.54713rem */
+       }
+}
+
+@media (min-width:400px) and (max-width: 600px) {
+       .main_course_Details{
+              height: 49rem;
+       }
+       
+       .features_CD{
+              /* display: grid;
+              grid-template-columns: 1fr 1fr; */
+              /* flex-direction: column;
+              align-items: left;
+              justify-content: flex-start; */
+       }
+       .Certificates {
+              width: 6rem;
+              height: 6.75rem;
+       }
+
+       .Certificates>div>h1 {
+              font-size: 1.4rem;
+              font-weight: 700;
+       }
+
+       .Certificates>div>p {
+              font-size: 0.6rem;
+              font-weight: 300;
+       }
+
+       .ETE {
+              width: 8rem;
+              height: 6.75rem;
+              padding: 2px 10px;
+       }
+
+       .ETE>div>h1 {
+              font-size: 1.4rem;
+              font-weight: 700;
+       }
+
+
+       .ETE>div>p {
+              font-size: 0.6rem;
+              font-weight: 300;
+       }
+
+       .live_Hour {
+              width: 9rem;
+              height: 6.75rem;
+              padding: 2px 10px;
+       }
+
+       .live_Hour>div>h1 {
+              font-size: 1.4rem;
+              font-weight: 700;
+       }
+
+       .live_Hour>div>p {
+              font-size: 0.6rem;
+              font-weight: 300;
+       }
+       .details_CD {
+              margin-top: 4rem;
+              height: 29rem;
+       }
+       .top_details {
+              width: 100%;
+              height: 30%;
+              padding: 4% 4%;
+              flex-direction: column;
+
+       }
+
+       .top_details>div>p {
+              font-size: 0.8rem;
+              font-style: normal;
+              font-weight: 400;
+       }
+
+       .top_details>div>h1 {
+              font-size: 2.1rem;
+              font-style: normal;
+              font-weight: 600;
+       }
+
+       .bottom_details {
+              padding: 4% 4%;
+       }
+
+       .top_details>div>h1 {
+              font-size: 1.6rem;
+              font-style: normal;
+              font-weight: 600;
+       }
+
+       .students_enrolled {
+              width: 17rem;
+       }
+       .students_enrolled>h1{
+              font-size: 1rem;
+       }
+       .price_CD>div>h1 {
+              color: #FFB000;
+              margin-top: 4rem;
+              /* text-align: center; */
+              font-family: Poppins;
+              font-size: 2rem;
+              font-style: normal;
+              font-weight: 600;
+              line-height: 137.523%;
+              /* 4.29756rem */
+       }
+
+       .price_CD>div>p {
+              color: #AAAEB1;
+              /* text-align: center; */
+              font-family: Poppins;
+              font-size: 0.6rem;
+              font-style: normal;
+              font-weight: 500;
+              line-height: 137.523%;
+              /* 1.54713rem */
+       }
+}
+
+@media (min-width:300px) and (max-width: 400px) {
+       .main_course_Details{
+              height: 49rem;
+       }
+       
+       .features_CD{
+              /* display: grid;
+              grid-template-columns: 1fr 1fr; */
+              /* flex-direction: column;
+              align-items: left;
+              justify-content: flex-start; */
+       }
+       .Certificates {
+              width: 6rem;
+              height: 6.75rem;
+       }
+
+       .Certificates>div>h1 {
+              font-size: 1.4rem;
+              font-weight: 700;
+       }
+
+       .Certificates>div>p {
+              font-size: 0.6rem;
+              font-weight: 300;
+       }
+
+       .ETE {
+              width: 8rem;
+              height: 6.75rem;
+              padding: 2px 10px;
+       }
+
+       .ETE>div>h1 {
+              font-size: 1.4rem;
+              font-weight: 700;
+       }
+
+
+       .ETE>div>p {
+              font-size: 0.6rem;
+              font-weight: 300;
+       }
+
+       .live_Hour {
+              width: 9rem;
+              height: 6.75rem;
+              padding: 2px 10px;
+       }
+
+       .live_Hour>div>h1 {
+              font-size: 1.4rem;
+              font-weight: 700;
+       }
+
+       .live_Hour>div>p {
+              font-size: 0.6rem;
+              font-weight: 300;
+       }
+       .details_CD {
+              margin-top: 4rem;
+              height: 29rem;
+       }
+       .top_details {
+              width: 100%;
+              height: 30%;
+              padding: 4% 4%;
+              flex-direction: column;
+
+       }
+
+       .top_details>div>p {
+              font-size: 0.8rem;
+              font-style: normal;
+              font-weight: 400;
+       }
+
+       .top_details>div>h1 {
+              font-size: 2.1rem;
+              font-style: normal;
+              font-weight: 600;
+       }
+
+       .bottom_details {
+              padding: 4% 4%;
+       }
+
+       .top_details>div>h1 {
+              font-size: 1.6rem;
+              font-style: normal;
+              font-weight: 600;
+       }
+
+       .students_enrolled {
+              width: 17rem;
+       }
+       .students_enrolled>h1{
+              font-size: 1rem;
+       }
+       .price_CD>div>h1 {
+              color: #FFB000;
+              margin-top: 4rem;
+              /* text-align: center; */
+              font-family: Poppins;
+              font-size: 2rem;
+              font-style: normal;
+              font-weight: 600;
+              line-height: 137.523%;
+              /* 4.29756rem */
+       }
+
+       .price_CD>div>p {
+              color: #AAAEB1;
+              /* text-align: center; */
+              font-family: Poppins;
+              font-size: 0.6rem;
+              font-style: normal;
+              font-weight: 500;
+              line-height: 137.523%;
+              /* 1.54713rem */
+       }
+}

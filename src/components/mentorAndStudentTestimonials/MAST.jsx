@@ -40,7 +40,32 @@ const MAST = () => {
             pagination={{
               clickable: true,
             }}
-            modules={[Autoplay, Pagination]}
+            modules={[Autoplay, Pagination]
+            }
+            // slidesPerView={6}
+            breakpoints={{
+              0: {
+                slidesPerView: 1,
+              },
+              400:{
+                slidesPerView:1,
+              },
+              639: {
+                slidesPerView: 2,
+              },
+              865:{
+                slidesPerView:2
+              },
+              1000:{
+                slidesPerView:3
+              },
+              1500:{
+                slidesPerView:3
+              },
+              1700:{
+                slidesPerView:4
+              }
+            }}
             className="mySwiper"
           >
             <SwiperSlide><Mentors img={ment} name="Prateek Sharma" /></SwiperSlide>
@@ -74,6 +99,29 @@ const MAST = () => {
                 clickable: true,
               }}
               modules={[Autoplay, Pagination]}
+              breakpoints={{
+                0: {
+                  slidesPerView: 1,
+                },
+                400:{
+                  slidesPerView:1,
+                },
+                639: {
+                  slidesPerView: 2,
+                },
+                865:{
+                  slidesPerView:2
+                },
+                1000:{
+                  slidesPerView:3
+                },
+                1500:{
+                  slidesPerView:3
+                },
+                1700:{
+                  slidesPerView:4
+                }
+              }}
               className="mySwiper"
             >
               <SwiperSlide><Testimonails img={img_testi} name="Jheel Tripathi" class="12th Grade" /></SwiperSlide>

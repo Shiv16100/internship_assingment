@@ -19,7 +19,7 @@ import 'swiper/css/navigation';
 // import './styles.css';
 
 // import required modules
-import { Pagination, Navigation } from 'swiper/modules';
+import { Autoplay,Pagination, Navigation } from 'swiper/modules';
 
 
 
@@ -45,26 +45,53 @@ const WhyChooseCareerCorps = () => {
                                             <SwiperSlide><ProgramsDetails img={rectangle} name="Full Stack" /></SwiperSlide>
                                           <SwiperSlide><ProgramsDetails img={rectangle} name="Full Stack" /></SwiperSlide>
                                    </Swiper> */}
-<div id="bestsellerCareerDevelopmentPrograms_Programs">
+                                   <div id="bestsellerCareerDevelopmentPrograms_Programs">
                                    <Swiper
-                                          slidesPerView={3}
-                                          spaceBetween={0}
-                                          pagination={{
-                                                 type: 'none',
-                                          }}
-                                          navigation={true}
-                                          modules={[Pagination, Navigation]}
-                                          className="mySwiper"
+            slidesPerView={3}
+            spaceBetween={30}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false,
+            }}
+            pagination={{
+              clickable: true,
+            }}
+            modules={[Autoplay, Pagination]
+            }
+            // slidesPerView={6}
+            breakpoints={{
+              0: {
+                slidesPerView: 1,
+              },
+              400:{
+                slidesPerView:1,
+              },
+              639: {
+                slidesPerView: 2,
+              },
+              865:{
+                slidesPerView:2
+              },
+              1000:{
+                slidesPerView:3
+              },
+              1500:{
+                slidesPerView:3
+              },
+              1700:{
+                slidesPerView:4
+              }
+            }}
+            className="mySwiper"
+          >
+                                                 <SwiperSlide className="PD">  <ProgramsDetails img={rectangle} name="Full Stack" /></SwiperSlide>
+                                                 <SwiperSlide className="PD">  <ProgramsDetails img={rectangle} name="Blockchain" /></SwiperSlide>
+                                                 <SwiperSlide className="PD">  <ProgramsDetails img={rectangle} name="Human Resources" /></SwiperSlide>
+                                                 <SwiperSlide className="PD">  <ProgramsDetails img={rectangle} name="Full Stack" /></SwiperSlide>
+                                                 <SwiperSlide className="PD">  <ProgramsDetails img={rectangle} name="Blockchain" /></SwiperSlide>
+                                                 <SwiperSlide className="PD">  <ProgramsDetails img={rectangle} name="Human Resources" /></SwiperSlide>
 
-                                   >
-                                          <SwiperSlide className="PD">  <ProgramsDetails img={rectangle} name="Full Stack" /></SwiperSlide>
-                                          <SwiperSlide className="PD">  <ProgramsDetails img={rectangle} name="Blockchain" /></SwiperSlide>
-                                          <SwiperSlide className="PD">  <ProgramsDetails img={rectangle} name="Human Resources" /></SwiperSlide>
-                                          <SwiperSlide className="PD">  <ProgramsDetails img={rectangle} name="Full Stack" /></SwiperSlide>
-                                          <SwiperSlide className="PD">  <ProgramsDetails img={rectangle} name="Blockchain" /></SwiperSlide>
-                                          <SwiperSlide className="PD">  <ProgramsDetails img={rectangle} name="Human Resources" /></SwiperSlide>
-
-                                   </Swiper>
+                                          </Swiper>
 
                                    </div>
 

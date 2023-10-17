@@ -88,17 +88,40 @@ const Details_WTP = () => {
           <Mentors_bio/>
           <Mentors_bio/> */}
           <Swiper
-            slidesPerView={3}
-            autoplay={{
-              delay: 2000,
-              disableOnInteraction: false,
+        
+        slidesPerView={3}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        spaceBetween={30}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Autoplay, Pagination]}
+            breakpoints={{
+              0: {
+                slidesPerView: 1,
+              },
+              400:{
+                slidesPerView:1,
+              },
+              639: {
+                slidesPerView: 2,
+              },
+              865:{
+                slidesPerView:2
+              },
+              1000:{
+                slidesPerView:3
+              },
+              1500:{
+                slidesPerView:3
+              },
+              1700:{
+                slidesPerView:4
+              }
             }}
-            spaceBetween={30}
-            pagination={{
-              type: 'none',
-            }}
-            navigation={true}
-            modules={[Autoplay, Pagination, Navigation]}
             className="mySwiper"
           >
             <SwiperSlide><Mentors_bio /></SwiperSlide>
@@ -124,6 +147,29 @@ const Details_WTP = () => {
               clickable: true,
             }}
             modules={[Autoplay, Pagination]}
+            breakpoints={{
+              0: {
+                slidesPerView: 1,
+              },
+              400:{
+                slidesPerView:1,
+              },
+              639: {
+                slidesPerView: 2,
+              },
+              865:{
+                slidesPerView:2
+              },
+              1000:{
+                slidesPerView:3
+              },
+              1500:{
+                slidesPerView:3
+              },
+              1700:{
+                slidesPerView:4
+              }
+            }}
             className="mySwiper"
           >
             <SwiperSlide><Testimonails img={img_testi} name="Jheel Tripathi" class="12th Grade" /></SwiperSlide>

@@ -51,20 +51,44 @@ const In_The_Media = () => {
                             <div className="ITM">
                                    <h1>In the <span>Media</span></h1>
                                    <div className="media_post_ITM">
-                                          <Swiper
-                                                 slidesPerView={4}
-                                                 autoplay={{
-                                                        delay: 2000,
-                                                        disableOnInteraction: false,
-                                                 }}
-                                                 spaceBetween={5}
-                                                 pagination={{
-                                                        type: 'none',
-                                                 }}
-                                                 navigation={true}
-                                                 modules={[Autoplay, Pagination, Navigation]}
-                                                 className="mySwiper"
-                                          >
+                                   <Swiper
+            slidesPerView={3}
+            spaceBetween={30}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false,
+            }}
+            pagination={{
+              clickable: true,
+            }}
+            modules={[Autoplay, Pagination]
+            }
+            // slidesPerView={6}
+            breakpoints={{
+              0: {
+                slidesPerView: 1,
+              },
+              400:{
+                slidesPerView:1,
+              },
+              639: {
+                slidesPerView: 2,
+              },
+              865:{
+                slidesPerView:2
+              },
+              1000:{
+                slidesPerView:3
+              },
+              1500:{
+                slidesPerView:3
+              },
+              1700:{
+                slidesPerView:4
+              }
+            }}
+            className="mySwiper"
+          >
                                                  {/* <Media_Post logo={livemint} />
                                                  <Media_Post logo={indiatoday} />
                                                  <Media_Post logo={livemint} />
